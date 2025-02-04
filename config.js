@@ -19,9 +19,9 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "PUT YOUR SESSION ID HERE",
+SESSION_ID: process.env.SESSION_ID || "HZYxWT7a#rg1i_A9Tp6d7MXTEp2TCOLOE-VAxnnR9Ghbn6u63SXE",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
-MODE: process.env.MODE || "private",
+MODE: process.env.MODE || "public",
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
@@ -30,13 +30,13 @@ ALIVE_MSG: process.env.ALIVE_MSG || "_Hi 💁🏽 How Can I Assist You. Am alive
 ANTI_LINK: process.env.ANTI_LINK || "true",
 ANTI_BAD: process.env.ANTI_BAD || "true",
 PREFIX: process.env.PREFIX || ".",
-FAKE_RECORDING: process.env.FAKE_RECORDING || "false",
+FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
 FAKE_TYPING: process.env.FAKE_TYPING || "false",
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 CURRENT_STATUS: process.env.CURRENT_STATUS || "true",
 AUTO_REACT: process.env.AUTO_REACT || "false",
 HEART_REACT: process.env.HEART_REACT || "false",
 OWNER_REACT: process.env.OWNER_REACT || "false",
-BOT_NAME: process.env.BOT_NAME || "『𝗞𝗘𝗥𝗠 𝗠𝗗 𝗩1』",
+BOT_NAME: process.env.BOT_NAME || "『Arslan 𝗠𝗗 』",
 OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39", // omdbapi.com
 };
